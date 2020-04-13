@@ -1,16 +1,14 @@
-# sp-svelte app
-Opinionated SharePoint starter template for [sveltejs](https://github.com/sveltejs) client-side Javascript development. 
-This project uses [sveltejs](https://github.com/sveltejs), [rollup](https://github.com/rollup), [sp-rest-proxy](https://github.com/koltyakov/sp-rest-proxy), [@pnp/sp](https://pnp.github.io/pnpjs/sp/), and [babel](https://github.com/babel/babel), among other packages. 
+# sp-rollup-base-template
+Opinionated SharePoint starter template for client-side JavaScript development. 
+This project uses [rollup](https://github.com/rollup), [sp-rest-proxy](https://github.com/koltyakov/sp-rest-proxy), [@pnp/sp](https://pnp.github.io/pnpjs/sp/), and [babel](https://github.com/babel/babel), among other packages. 
 
 Although your code will work with most modern browsers, the project was designed specifically to work on IE 10, as SharePoint's default masterpage still targets IE 10 with a meta tag.  
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sp-sveltejs/template.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sp-sveltejs/template sp-svelte-app
-cd sp-svelte-app
+npx degit SharePoint-Repo/sp-rollup-base-template my-app-name
+cd my-app-name
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
@@ -32,7 +30,7 @@ The generated project will work with SharePoint 2013, SharePoint 2016, SharePoin
 Install the dependencies...
 
 ```bash
-cd sp-svelte-app
+cd my-app-name
 npm install
 ```
 
