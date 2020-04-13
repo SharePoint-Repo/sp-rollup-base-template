@@ -12,12 +12,7 @@ cd my-app-name
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-*Looking for a shareable component template the works with SharePoint? Coming Soon*
-
 ---
-
 
 ### Prerequisites
 
